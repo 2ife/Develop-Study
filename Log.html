@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Log.css" />
+    <script src="showCategories.js"></script>
+    <title>일지</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1><a href="index.html">개발 공부 계획</a></h1>
+    </div>
+    <div class="allCategories">
+      <div class="classifyCategory">
+        <a href="Periodical Plan.html">기간별 계획</a>
+        <a href="Plan by Field.html">분야별 계획</a>
+        <a href="Planner.html">플래너</a>
+      </div>
+      <div class="sectionalCategories">
+        <div>
+          <a href="Monthly Plan.html">월별 계획</a>
+          <a href="Weekly Plan.html">주별 계획</a>
+          <a href="Daily Plan.html">일별 계획</a>
+        </div>
+        <div>
+          <a href="Front-end.html">Front-end</a>
+          <a href="Back-end.html">Back-end</a>
+          <a href="DevOps.html">DevOps</a>
+        </div>
+        <div>
+          <a href="PlannerIn.html">플래너</a>
+          <a href="Log.html">일지</a>
+        </div>
+      </div>
+    </div>
+    <script src="dropDownMenu.js"></script>
+    <div class="slideShow">
+      <div class="slides fade">
+        <img src="james-harrison-vpOeXr5wmR4-unsplash.jpg" alt="" />
+      </div>
+      <div class="slides fade">
+        <img src="jefferson-santos-9SoCnyQmkzI-unsplash.jpg" alt="" />
+      </div>
+      <div class="slides fade">
+        <img src="pakata-goh-RDolnHtjVCY-unsplash.jpg" alt="" />
+      </div>
+    </div>
+    <script src="slideImages.js"></script>
+  </body>
+  <h2>일지</h2>
+  <div class="buttonSet">
+    <button id="open1">오늘 공부 점검</button>
+    <button id="open2">이번 주 공부 점검</button>
+    <button id="open3">개발 공부 점검</button>
+  </div>
+  <div class="modal hidden">
+    <div class="modal_overlay"></div>
+    <div class="modal_content">
+      <h1>오늘 공부는 계획대로 잘 수행하였나요?</h1>
+      <div>
+        <button>
+          <a href="https://www.youtube.com/watch?v=ilP79roNLQc" target="_blank"
+            >네. 잘 수행하였습니다.</a
+          >
+        </button>
+        <button>
+          <a
+            href="https://www.youtube.com/watch?v=whFZCmN__mM&list=WL&index=24"
+            target="_blank"
+            >조금 부족했던 것 같습니다.</a
+          >
+        </button>
+        <button>
+          <a
+            href="https://www.youtube.com/watch?v=Aq2Yov6CIOk&list=WL&index=8"
+            target="_blank"
+            >형편 없었습니다.</a
+          >
+        </button>
+        <button id="quit">❌</button>
+      </div>
+    </div>
+  </div>
+  <script src="Modal.js"></script>
+</html>

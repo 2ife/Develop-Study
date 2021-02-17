@@ -1,0 +1,19 @@
+.containTable {
+  margin: 0px 100px;
+}
+table,
+tr,
+th,
+td {
+  border: 3px black solid;
+  font-weight: bold;
+}
+table {
+  width: 100%;
+}
+.firstTable {
+  border-bottom: none;
+}
+.secondTable {
+  border-top: none;
+}
